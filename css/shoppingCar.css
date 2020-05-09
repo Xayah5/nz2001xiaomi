@@ -1,0 +1,242 @@
+@charset "utf-8";
+body{
+    background-color: #f5f5f5;
+}
+.carHeader,.listHead,.listBody,.carBar{
+    width: 1226px;
+    margin:0 auto;
+}
+#carHeader{
+    background-color: #fff;
+    border-bottom: 2px  solid #FF6700;
+}
+.carHeader{
+    height:100px;
+}
+.logoImg{
+    float: left;
+    width: 93px;
+    height:48px;
+    margin-top:26px;
+}
+.logoImg a{
+    display: block;
+    width:56px;
+    height: 56px;
+    background-color: #ccc;
+}
+.logoImg a img{
+    width:56px;
+    height:56px;
+}
+.carHeader h1{
+    float: left;
+    width: 140px;
+    height:48px;
+    margin:36px 15px 0 0;
+    font-size:28px;
+    color:#424242;
+}
+.carHeader p{
+    float: left;
+    height:48px;
+    font-size:12px;
+    color:#757575;
+    margin-top:55px;
+}
+.listHead{
+    height:70px;
+    margin-top:38px;
+    background-color: #fff;
+}
+.col_check{
+    float: left;
+    width: 105px;
+    height: 45px;
+    padding:25px 0 0 25px;
+}
+.col_check input{
+    float: left;
+    margin-right:10px;
+    width: 20px;
+    height: 20px;
+}
+.col_check h1{
+    float: left;
+    font-size:14px;
+    color:#424242;
+}
+
+
+.listBody{
+    background-color: #fff;
+    border-top:1px solid #e0e0e0;
+}
+.col_name,.col_price,.col_num,.col_total,.col_action{
+    height: 70px;
+    text-align: center;
+    font-size:14px;
+    line-height:70px;
+    color:#424242;
+    float: left;
+}
+.col_name{
+    width: 380px;
+    text-align:left;
+}
+.col_price{
+    width: 170px;
+    padding-right:18px;
+}
+.col_num{
+    width: 170px;
+}
+.col_total{
+    width: 201px;
+}
+.col_action{
+    width: 80px;
+}
+.listConBox{
+    width: 1226px;
+    height: 81px;
+    padding:15px 0;
+}
+.col_checks{
+    float: left;
+    width: 105px;
+    height: 53px;
+    padding:28px 0 0 25px;
+}
+.col_checks input{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.col_names,.col_prices,.col_nums,.col_totals,.col_actions{
+    height: 86px;
+    text-align: center;
+    line-height:86px;
+    float: left;
+}
+.col_names{
+    width: 380px;
+    text-align:left;
+    font-size:18px;
+    color:#424242;
+}
+.col_prices{
+    width: 170px;
+    padding-right:18px;
+    font-size:16px;
+    color:#424242;
+}
+.col_nums{
+    width: 170px;
+    position: relative;
+}
+.col_nums_box{
+    position: relative;
+    top:23px;
+    width: 168px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+}
+.col_nums_box a{
+    font-size:20px;
+    text-align:center;
+    line-height:38px;
+    color:#757575;
+    display:block;
+    width:38px;
+    height: 38px;
+}
+.col_nums_box a:nth-of-type(1){
+    float: left;
+}
+.col_nums_box a:nth-of-type(2){
+    float: left;
+}
+.col_nums_box a:hover{
+    background-color: #E0E0E0;
+}
+.col_nums_box input{
+    float: left;
+    border:none;
+    width:92px;
+    height:38px;
+    text-align: center;
+    line-height:38px;
+}
+.col_totals{
+    width: 201px;
+    color:#FF6700;
+    font-size:16px;
+}
+.col_actions{
+    width: 80px;
+    position: relative;
+}
+.col_actions a{
+    position: absolute;
+    left:28px;
+    top:31px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius:50%;
+    font-size:20px;
+    color:#757575;
+    line-height: 24px;
+}
+.col_actions a:hover{
+    background-color: #E53935;
+    color:#fff;
+}
+.carBar{
+    position: relative;
+    margin-top:26px;
+    height:50px;
+    background-color: #fff;
+}
+.goshopping{
+    float: left;
+    margin:15px 30px;
+}
+.goshopping a{
+    font-size:14px;
+    color:#757575;
+    line-height:14px;
+}
+.goshopping a:hover{
+    color: #FF6700;
+}
+.totalPrice{
+    position: relative;
+    right:-700px;
+    float: left;
+    color: #FF6700;
+    font-size:14px;
+    height: 50px;
+    width: 200px;
+}
+.totalPrice span{
+    font-size: 30px;
+    color: #FF6700;
+}
+.submitCar{
+    width:200px;
+    height:50px;
+    background: #ff6700;
+    font-size:18px;
+    line-height:50px;
+    text-align: center;
+    float: right;
+}
+.submitCar a{
+    color:#fff;
+    
+}
+.kongbai{
+    height:30px;
+}
